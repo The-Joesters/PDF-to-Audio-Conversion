@@ -1,0 +1,30 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF to Audio Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>PDF to Audio Converter</h1>
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <ul class="flashes">
+              {% for message in messages %}
+                <li>{{ message }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endwith %}
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="pdf_file">Select PDF File:</label>
+                <input type="file" name="pdf_file" id="pdf_file" accept="application/pdf" required>
+            </div>
+            <button type="submit">Convert to Audio</button>
+        </form>
+    </div>
+</body>
+</html>
