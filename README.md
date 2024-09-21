@@ -1,4 +1,4 @@
-# PDF to Audio Conversion Pipeline
+# Arabic and Englisah Books PDF to Audio Conversion Pipeline
 
 ## Overview
 This repository provides a simple pipeline to convert PDF documents into audio files using Python. The process involves extracting text from the PDF, detecting the language of the extracted text, and converting it into an audio file (MP3 format) using Google Text-to-Speech (gTTS).
