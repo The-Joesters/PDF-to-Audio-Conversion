@@ -40,9 +40,19 @@ The notebook implements the following steps:
 
 ```
 .
-├── PDF_to_Audio_Conversion.ipynb  # Jupyter notebook implementing the pipeline
-├── README.md                      # This README file
-└── requirements.txt               # Python dependencies
+PDF_to_Audio_Conversion/
+├── app.py
+├── requirements.txt
+├── static/
+│   └── css/
+│       └── style.css
+├── templates/
+│   └── index.html
+├── PDF_to_Audio_Conversion.ipynb
+│   
+└── uploads/
+    └── [Uploaded and paraphrased PDFs will be stored here]
+
 ```
 
 ---
