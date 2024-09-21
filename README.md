@@ -7,7 +7,7 @@ This repository provides a simple pipeline to convert PDF documents into audio f
 - **PDF Text Extraction**: Uses `PyPDF2` to extract text from PDF files.
 - **Language Detection**: Automatically detects the language of the text using the `langdetect` library.
 - **Text-to-Audio Conversion**: Converts text to audio using the `gTTS` (Google Text-to-Speech) API.
-- Supports both English and Arabic for text-to-speech conversion.
+- Supports both **English** and **Arabic** for text-to-speech conversion.
 
 ---
 
