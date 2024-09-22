@@ -51,7 +51,6 @@ PDF_to_Audio_Conversion/
 ├── PDF_to_Audio_Conversion.ipynb
 │   
 └── uploads/
-    └── [Uploaded and paraphrased PDFs will be stored here]
 
 ```
 
