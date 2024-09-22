@@ -62,8 +62,8 @@ PDF_to_Audio_Conversion/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/pdf-to-audio-conversion.git
-cd pdf-to-audio-conversion
+git clone https://github.com/The-Joesters/PDF-to-Audio-Conversion.git
+cd PDF-to-Audio-Conversion
 ```
 
 ### 2. Run the Jupyter Notebook
